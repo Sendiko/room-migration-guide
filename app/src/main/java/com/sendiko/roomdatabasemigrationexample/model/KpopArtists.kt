@@ -13,6 +13,9 @@ data class KpopArtists(
     @ColumnInfo(name = "name")
     val name : String?= null,
 
+    @ColumnInfo(name = "age", defaultValue = "0")
+    val age : String?= null,
+
     @ColumnInfo(name = "group")
     val group : String?= null,
 

@@ -1,6 +1,7 @@
 package com.sendiko.roomdatabasemigrationexample.repository.database
 
 import android.content.Context
+import androidx.room.AutoMigration
 import androidx.room.RoomDatabase
 import androidx.room.Database
 import androidx.room.Room
@@ -8,7 +9,8 @@ import com.sendiko.roomdatabasemigrationexample.model.KpopArtists
 
 @Database(
     entities = [KpopArtists::class],
-    version = 1,
+    version = 2,
+    autoMigrations = [AutoMigration(from = 1, to = 2)]
 )
 abstract class ArtistsDatabase : RoomDatabase() {
 

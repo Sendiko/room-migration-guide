@@ -35,69 +35,69 @@ class MainFragment : Fragment() {
 
 //        viewModel.deleteAll()
 
-        viewModel.addArtists(
-            KpopArtists(
-            0,
-            "Jisoo Kim",
-            "BLACKPINK",
-            "YG"
-        ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Jennie Kim",
-                "BLACKPINK",
-                "YG"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Roseanne Park",
-                "BLACKPINK",
-                "YG"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Choi Jisu",
-                "ITZY",
-                "JYP"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Hwang Yeji",
-                "BLACKPINK",
-                "YG"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Ryujin Shin",
-                "BLACKPINK",
-                "YG"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Chaeryeong Lee",
-                "BLACKPINK",
-                "YG"
-            ))
-
-        viewModel.addArtists(
-            KpopArtists(
-                0,
-                "Yuna Shin",
-                "BLACKPINK",
-                "YG"
-            ))
+//        viewModel.addArtists(
+//            KpopArtists(
+//            0,
+//            "Jisoo Kim",
+//            "BLACKPINK",
+//            "YG"
+//        ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Jennie Kim",
+//                "BLACKPINK",
+//                "YG"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Roseanne Park",
+//                "BLACKPINK",
+//                "YG"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Choi Jisu",
+//                "ITZY",
+//                "JYP"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Hwang Yeji",
+//                "BLACKPINK",
+//                "YG"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Ryujin Shin",
+//                "BLACKPINK",
+//                "YG"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Chaeryeong Lee",
+//                "BLACKPINK",
+//                "YG"
+//            ))
+//
+//        viewModel.addArtists(
+//            KpopArtists(
+//                0,
+//                "Yuna Shin",
+//                "BLACKPINK",
+//                "YG"
+//            ))
 
         viewModel.artistList.observe(viewLifecycleOwner){
             Log.i(TAG, "Kpop artist list: $it")
